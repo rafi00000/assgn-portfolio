@@ -10,7 +10,7 @@
     <!-- font awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="bg-dark">
     
     <header>
         <nav class="d-flex justify-content-around align-items-center">
@@ -35,7 +35,10 @@
 
     <main>
         <!-- banner section -->
-        <section class="d-flex justify-content-evenly align-items-center">
+        <section class="d-flex justify-content-evenly align-items-center banner-container">
+            <div class="">
+                <img class="banner-img" src="/images/gias.jpg" alt="">
+            </div>
             <div class="banner-content">
                 <h1 class="banner-header">Hi! <br> I'M GIAS UDDIN</h1>
                 <h3>Web Developer || React Developer || Programmer</h3>
@@ -51,10 +54,6 @@
                         </button>
                 </div>
             </div>
-
-            <div class="">
-                <img class="banner-img" src="/images/gias.jpg" alt="">
-            </div>
         </section>
 
 
@@ -63,7 +62,7 @@
          <section class="">
              <div class="p-card">
                 <img src="./projects-img/Travel-Search.png" alt="" class="project-img">
-                <div>
+                <div class="project-content">
                     <h1 class="project-header">Online University</h1>
                     <p class="banner-about">This is Travel service Agency website.user can login via Facebook sign-in,Google Sign-in and also Can Create an New Account for use the services.user can Choice the service as he/she want.</p>
                     <ul>
@@ -83,7 +82,7 @@
              </div>
              <div class="p-card">
                 <img src="./projects-img/Travel-Search.png" alt="" class="project-img">
-                <div>
+                <div class="project-content">
                     <h1 class="project-header">Online University</h1>
                     <p class="banner-about">This is Travel service Agency website.user can login via Facebook sign-in,Google Sign-in and also Can Create an New Account for use the services.user can Choice the service as he/she want.</p>
                     <ul>
@@ -106,7 +105,7 @@
 
          <!-- Education and Technology -->
 
-         <section>
+         <section class="d-flex justify-content-around align-items-center edt-container" style="margin-top: 20px;">
             <div class="technology-container">
                 <div>
                     <h1>Expertise:</h1>
@@ -153,16 +152,45 @@
                 </div>
             </div>
 
-            <div class="education-container">
-
+            <div class="education-container text-center">
+                <h1 class="project-header education-header">My Education</h1>
+                <p class="text-center education-description">Bsc in Software Engineering,  <br>Yunnan University ( Kunming,Yunnan,China ) <br>2018-2022</p>
             </div>
          </section>
+
+            <!-- About Section -->
+        <section>
+            <h1 class="about-header">Contact With Me</h1>
+            <div class="form-container">
+                <form action="#" method="" class="d-flex flex-column gap-3">
+                    <div class="">
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="">
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="">
+                        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Send</button>
+                </form>
+            </div>
+        </section>
     </main>
 
 
 
+    <hr>
     <footer>
-
+        <div>
+            <p>Copyright © 2021 | gias uddin</p>
+            <p>kunming,yunnan,china</p>
+        </div>
+        <div class="footer-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
     </footer>
 
 
