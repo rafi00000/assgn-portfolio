@@ -1,0 +1,70 @@
+body{
+    background: #000;
+    color: white;
+}
+.icon{
+    width: 100px;
+}
+
+nav{
+    padding: 10px 0px;
+}
+
+.menu{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.banner-header{
+    color: #00FFFF;
+    font-size: 70px;
+}
+
+.banner-icons{
+    color: rgb(49, 49, 194);
+    font-size: 30px;
+}
+
+.banner-img{
+    height: 500px;
+}
+
+.banner-about{
+    width: 500px;
+}
+
+.section-header{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.project-header{
+    font-size: 30px;
+    color: #00FFFF;
+}
+.project-img{
+    width: 500px;
+}
+
+.p-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project-tech{
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
